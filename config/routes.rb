@@ -1,4 +1,10 @@
 Catchup::Application.routes.draw do
+  resources :episodes
+
+  resources :shows
+
+  resources :users
+
   get "welcome/index"
 
   # The priority is based upon order of creation:

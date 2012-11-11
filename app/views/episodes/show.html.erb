@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @episode.name %>
+</p>
+
+<p>
+  <b>Episode:</b>
+  <%= @episode.episode_id %>
+</p>
+
+<p>
+  <b>Tag:</b>
+  <%= @episode.tag %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @episode.description %>
+</p>
+
+<p>
+  <b>Show:</b>
+  <%= @episode.show_id %>
+</p>
+
+<p>
+  <b>Season:</b>
+  <%= @episode.season_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_episode_path(@episode) %> |
+<%= link_to 'Back', episodes_path %>
