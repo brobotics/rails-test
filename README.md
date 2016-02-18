@@ -1,2 +1,2 @@
-flaming-hipster
+rails-test
 ===============
